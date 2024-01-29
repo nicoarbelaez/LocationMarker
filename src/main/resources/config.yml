@@ -1,0 +1,50 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                     GiftCalendar                     | #
+# +------------------------------------------------------+ #
+# |                                                      | #
+# | Configuración de GiftCalendar, el plugin que te      | #
+# | permite ofrecer regalos diarios a tus jugadores.     | #
+# |                                                      | #
+# | ¿Cómo usar?                                          | #
+# | 1. Define los items para mostrar el estado de cada   | #
+# |    día y para navegar en el calendario.              | #
+# | 2. Agrega items extras para decorar el panel o       | #
+# |    proporcionar elementos únicos.                    | #
+# | 3. ¡Personaliza tu calendario de regalos a medida!   | #
+# |                                                      | #
+############################################################
+
+# Este es el archivo de configuración para GiftCalendar v2.0.
+# Asegúrate de seguir las instrucciones en los comentarios para una configuración correcta.
+
+# Si necesitas ayuda con GiftCalendar, visita nuestro sitio web en https://discord.com/invite/FmaRPpcx7f
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Configuración                    | #
+# +------------------------------------------------------+ #
+############################################################
+version: "1.0.0"
+symbols:
+  up: "⬆"
+  down: "⬇"
+  northeast: "⬈"
+  northwest: "⬉"
+  southeast: "⬊"
+  southwest: "⬋"
+  right: "⮕"
+  left: "⬅"
+  ascend: "⇈"
+  descend: "⇊"
+  zero: "●"
+targets:
+  spawn:
+    world: voidworld
+    x: 0
+    y: 100
+    z: 0
+  wasted:
+    player: "Kolacho"
+messages:
+  invalid-world: "&cInvalid world!"

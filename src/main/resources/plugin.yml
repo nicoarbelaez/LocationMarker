@@ -1,0 +1,12 @@
+name: LocationMarker
+version: '${project.version}'
+main: lm.nicoarbelaez.LocationMarker
+author: [nicoarbelaez]
+softdepend: [PlaceholderAPI]
+api-version: '1.13'
+
+commands:
+  locationmarker:
+    description: Main command LocationMarker
+    aliases:
+      - lm
